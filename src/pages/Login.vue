@@ -1,5 +1,6 @@
 <template>
 <div>
+    <button  style="display:block" @click="backAction">back</button>
     <input type="text" placeholder="用户名" v-model="userName">
     <input type="text" placeholder="密码" v-model="password">
     <button @click="login">登录</button>
@@ -40,6 +41,9 @@ export default {
                 MintUI.Indicator.close();
                 console.log(response);
             })
+        },
+        backAction(){
+            this.$router.go(-1)
         }
     }
 }
