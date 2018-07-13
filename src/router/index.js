@@ -14,6 +14,11 @@ export default new Router({
       component: MainTabBar
     },
     {
+        path: '/mainpage',
+        name: 'mainpage',
+        component: MainTabBar
+      },
+    {
         path: '/login',
         name: 'login',
         component: LoginPage
