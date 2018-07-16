@@ -4,50 +4,50 @@ var meListRouters = [
         "link": "login",
     },{
         "descriptioin": "历史",
-        "link": "mainpage"
+        "link": "discovery"
     },{
         "descriptioin": "喜爱",
         "link": "login"
     },{
         "descriptioin": "历史1",
-        "link": "mainpage"
+        "link": "discovery"
     },{
         "descriptioin": "历史2",
-        "link": "mainpage"
+        "link": "discovery"
     },{
         "descriptioin": "历史3",
-        "link": "mainpage"
+        "link": "discovery"
     },{
         "descriptioin": "历史4",
-        "link": "mainpage"
+        "link": "discovery"
     },{
         "descriptioin": "历史5",
-        "link": "mainpage"
+        "link": "discovery"
     },{
         "descriptioin": "历史6",
-        "link": "mainpage"
+        "link": "discovery"
     },{
         "descriptioin": "历史7",
-        "link": "mainpage"
+        "link": "discovery"
     },{
         "descriptioin": "历史8",
-        "link": "mainpage"
+        "link": "discovery"
     },{
         "descriptioin": "历史9",
-        "link": "mainpage"
+        "link": "discovery"
     },{
         "descriptioin": "历史10",
-        "link": "mainpage"
+        "link": "discovery"
     },{
         "descriptioin": "历史11",
-        "link": "mainpage"
+        "link": "discovery"
     }
 ]
 
 var discoveryListRouters = [
     {
         "descriptioin": "热门",
-        "link": "热门",
+        "link": "discovery",
     }
 ]
 
